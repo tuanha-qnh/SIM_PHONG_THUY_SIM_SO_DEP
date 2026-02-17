@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { FengShuiAnalysis } from "../types";
+import { FengShuiAnalysis } from "../types.ts";
 
 // NOTE: In a real production app, never expose API keys on the client side.
 // This is for demonstration using the provided environment variable pattern.

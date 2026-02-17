@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs, addDoc, updateDoc, doc, query, orderBy, where } from 'firebase/firestore';
-import { SimCard, Order } from '../types';
-import { MOCK_SIMS } from './mockData';
+import { SimCard, Order } from '../types.ts';
+import { MOCK_SIMS } from './mockData.ts';
 
 // Placeholder config - User needs to replace this
 const firebaseConfig = {

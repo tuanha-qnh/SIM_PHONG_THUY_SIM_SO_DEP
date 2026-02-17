@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { getOrders, updateOrderStatus } from '../services/firebaseService';
-import { Order } from '../types';
+import { getOrders, updateOrderStatus } from '../services/firebaseService.ts';
+import { Order } from '../types.ts';
 import { Shield, Package, CheckCircle, XCircle, Clock } from 'lucide-react';
 
 const AdminPage: React.FC = () => {

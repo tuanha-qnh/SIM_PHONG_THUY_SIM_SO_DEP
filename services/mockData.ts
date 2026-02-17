@@ -1,4 +1,4 @@
-import { SimCard, NetworkProvider } from '../types';
+import { SimCard, NetworkProvider } from '../types.ts';
 
 export const MOCK_SIMS: SimCard[] = [
   { id: '1', phoneNumber: '0912.345.678', price: 5000000, provider: NetworkProvider.VINAPHONE, category: ['Sảnh Tiến', 'Phong Thủy'], status: 'available', score: 9.5 },

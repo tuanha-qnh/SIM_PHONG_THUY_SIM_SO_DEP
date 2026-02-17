@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Filter, Sparkles, X } from 'lucide-react';
-import SimItem from '../components/SimItem';
-import { getSims, createOrder } from '../services/firebaseService';
-import { analyzeSimFengShui } from '../services/geminiService';
-import { SimCard, FengShuiAnalysis } from '../types';
+import SimItem from '../components/SimItem.tsx';
+import { getSims, createOrder } from '../services/firebaseService.ts';
+import { analyzeSimFengShui } from '../services/geminiService.ts';
+import { SimCard, FengShuiAnalysis } from '../types.ts';
 
 const HomePage: React.FC = () => {
   const [sims, setSims] = useState<SimCard[]>([]);

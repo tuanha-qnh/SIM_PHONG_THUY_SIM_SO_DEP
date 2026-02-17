@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout';
-import HomePage from './pages/HomePage';
-import AdminPage from './pages/AdminPage';
-import FengShuiPage from './pages/FengShuiPage';
+import Layout from './components/Layout.tsx';
+import HomePage from './pages/HomePage.tsx';
+import AdminPage from './pages/AdminPage.tsx';
+import FengShuiPage from './pages/FengShuiPage.tsx';
 
 function App() {
   return (

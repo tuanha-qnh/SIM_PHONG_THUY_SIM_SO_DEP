@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { analyzeSimFengShui } from '../services/geminiService';
-import { FengShuiAnalysis } from '../types';
+import { analyzeSimFengShui } from '../services/geminiService.ts';
+import { FengShuiAnalysis } from '../types.ts';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 const FengShuiPage: React.FC = () => {

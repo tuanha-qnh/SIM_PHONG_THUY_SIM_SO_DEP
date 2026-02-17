@@ -1,5 +1,5 @@
 import React from 'react';
-import { SimCard } from '../types';
+import { SimCard } from '../types.ts';
 import { ShoppingCart, Star } from 'lucide-react';
 
 interface SimItemProps {
